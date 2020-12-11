@@ -89,7 +89,7 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: true })
         }
 
         function SessionActive() {
-            document.write('Session Active. Please come back later')
+            document.write('The service is currently in use, please come back later.')
         }
 
         function SendFilter(filter) {
